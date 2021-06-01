@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    
+    <div id="contenedor">
+        
+         <form id="form" onsubmit="functionSubmit(event)">
+             <h1>Sistema de notas</h1>
+
+             <div>
+                 <label>Estudent Name</label>
+                 <input id="inputName" type="text" placeholder="Enter name" required>
+             </div>
+
+             <div>
+                <label>Estudent LastName</label>
+                <input id="inputLastName" type="text" placeholder="Enter lastname" required>
+            </div>
+
+            <div>
+                <label>Estudent Phone Number</label>
+                <input id="inputPhone" type="number" placeholder="Enter phone" required>
+            </div>
+
+            <div>
+                <label>Period 1</label>
+                <input id="inputPeriod1" type="number" placeholder="Enter period 1" required>
+            </div>
+
+            <div>
+                <label>Period 2</label>
+                <input id="inputPeriod2" type="number" placeholder="Enter period 2" required>
+            </div>
+
+            <div>
+                <label>Period 3</label>
+                <input id="inputPeriod3" type="number" placeholder="Enter period 3" required>
+            </div>
+
+            <div>
+                <label>Final</label>
+                <input id="inputFinal" type="number" readonly>
+            </div>
+
+            <button id="buttonSubmit" type="submit" onclick="getFinal()">Submit</button>
+
+            <input id="aprobo">
+
+         </form>
+
+
+    </div>
+
+
+    <script src="scripts/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,20 @@
+#contenedor{
+    margin: auto;
+    margin-top: 5%;
+    width: 30%;
+    border: 5px solid aquamarine   
+}
+
+input{
+    width: 50%;
+    margin-top: 5%;
+}
+
+h1{
+    text-align: center;
+}
+
+#buttonSubmit{
+    
+    margin-top: 10px;
+}
